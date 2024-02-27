@@ -15,7 +15,7 @@ export const Reference = () => {
             <div className='shloka'>
               <span style={{ fontSize: "20px" }}>{val.name}</span>
               <div className='btn-ctn'>
-                <div dangerouslySetInnerHTML={{__html: val.ref}}></div>
+                <div dangerouslySetInnerHTML={{__html: val.ref ? val.ref.replace(/\n/g, "<br/>") : ""}}></div>
               </div>
             </div>
           </div>)
