@@ -1,12 +1,23 @@
 [
   {
+    "name": "Ramayan",
+    "ref": "As you know that <i>Ramayana</i> is one the important and oldest literature found in sanskrit language. Thus we can trust Ramayan Shlokas as well as Mahabharat. I have used only one website for Ramayan shlokas from very trusted and genuine institute <span style='font-weight:bold; font-style:italic;'>(IIT KANPUR)</span>. You can say the shlokas and its meaning is genuine and authentic as it is from IIT KANPUR.\n\n1. <a class='link no-link' href='https://www.valmiki.iitk.ac.in/'>Ramayana by <b style='font-weight: bold'>IIT Kanpur</b></a>\n",
+    "child": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
     "name": "Mahabharat",
-    "ref": "sfdjlksfd",
+    "ref": "As you know that <i>Mahabharata</i> is one of the important epics in Sanskrit Literature. Also Mahabharat is one of the oldest epics and we can trust all the shlokas found in Mahabharat epic. And thus I have used many shlokas including the word <i>citr</i>.\n\nI have used shlokas of Mahabharat from two sources\n1. <a class='link no-link' target='_blank' href='https://archive.org/details/mahabharata-by-gita-press-in-hindi-and-sanskrit'>Mahabharat by Geeta Press</a>\n2. <a class='link no-link' href='https://www.wisdomlib.org/hinduism/book/mahabharata-sanskrit'>Mahabharat by Wisdomlib.org</a>\n\nAs I am using two sources, I have used shlokas' meaning from <a target='_blank' class='link no-link' href='https://archive.org/details/mahabharata-by-gita-press-in-hindi-and-sanskrit'>Geeta Press</a> and provided the shlokas numbering from both sources as I have found that Geeta Press Mahabharat has more shlokas than Wisdomlib Mahabharat.",
     "child": [
       {
         "v": "सत्यवादी शम परस तपस्वी नियतव्रतः\nसर्वेषाम एव नॊ मान्यः स तावत परतिपाल्यताम विचित्र चित्राङ्ग चित्//री अस्ति आहं",
         "s": "Geeta Press 103210921",
-        "d":"the meanins "
+        "d":"the mea *nin*  asdf asfas aafs\nafsafdas saf as "
       },
       {},
       {},
@@ -18,27 +29,8 @@
     ]
   },
   {
-    "name": "Ramayan",
-    "child": [
-      {},
-      {},
-      {},
-      {},
-      {}
-    ]
-  },
-  {
-    "name": "Puran",
-    "child": [
-      {},
-      {},
-      {},
-      {},
-      {}
-    ]
-  },
-  {
     "name": "Other Sources",
+    "ref":"For other sources, I have used many websites but I have preferred sources by IIT Kanpur for making the source very authentic. But you can also find many shlokas from unknown sources but I have wrote the reference in the description of that shloka in that particular shlokas from unknown or not so trusted sources like Youtube, Reddit and from other Platforms\n\n1. <a class='link no-link' target='_blank' href='https://www.gitasupersite.iitk.ac.in/'>IIT Kanpur's authentic and trusted Sanskrit literature</a> ",
     "child": [
       {},
       {},
