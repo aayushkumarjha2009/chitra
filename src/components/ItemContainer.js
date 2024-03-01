@@ -11,9 +11,11 @@ const Item = ({ id, data, index, s, no_svg }) => {
   const It = () => {
     return (<div className='shloka'>
       <div className='s-btn-div' style={{ cursor: s === true ? "auto" : "pointer" }}>
-        <div className={`btn-ctn btn-90`} style={no_svg === true ? {display: "flex", flex: "0 0 100%", maxWidth: "100%"} : {}}>
+        <div className={`btn-ctn btn-90`} style={no_svg === true ? { display: "flex", flex: "0 0 100%", maxWidth: "100%" } : {}}>
           {name.map((val, i) => {
-            return <p className='btn-desc' dangerouslySetInnerHTML={{ __html: Replace(val) }} key={i}></p>
+            let st = Replace(val)
+            st = Highlight((st ? String(st) ? st : "" : ""), "*", "span", "span")
+            return <p className='btn-desc' dangerouslySetInnerHTML={{ __html: st }} key={i}></p>
           })}
         </div>
         {no_svg !== true ? <div className={no_svg === true ? "" : 'btn-10'}>
@@ -62,8 +64,8 @@ export const ItemContainer = ({ data, s, ids, id, more }) => {
             st = st.replace(/\n/g, "<br/>")
             let sh = st.split("\n")
             return (<><Item s={true} id={id} no_svg={true} data={val} index={index} />
-            <div style={{padding: 10}}>
-              <div dangerouslySetInnerHTML={{ __html: st }} className='s-desc'></div>
+              <div style={{ padding: 10 }}>
+                <div dangerouslySetInnerHTML={{ __html: st }} className='s-desc'></div>
               </div>
             </>)
           }
